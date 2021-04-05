@@ -1,0 +1,171 @@
+
+body{ 
+	width:100%;
+	height:100%;
+	background-color:#BDE0FE;
+}
+
+.midias{
+	text-align:right;
+	margin:10px 20px;
+	padding:0 20px;
+}
+ 
+.menu{
+	width:85%;
+	margin:auto;
+	width: 85%;
+    margin:auto;
+    padding: 20px 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.menu ul li{
+    list-style: none;
+    display: inline-block;
+    margin: 0 20px;
+    position: relative;
+}
+
+.menu ul li a{
+    text-decoration: none;
+    color:#C6A006;
+	text-transform: uppercase;
+}
+
+.menu ul li:after{
+    content: '';
+    height: 3px;
+    width: 0;
+    background: #FF66C4;
+    position: absolute;
+    right: 0;
+    bottom:-10px;
+    transition: 0.5s;
+}
+
+.menu ul li:hover:after{
+    width: 100%;
+}
+
+.logo{
+	text-align:center;
+	margin:10px;
+}
+
+.conteudo1{
+	margin:30px;
+	text-align:center;
+}
+.conteudo1 h1{
+	font-size:25px;
+	color:#C6A006;
+	padding-bottom:20px;
+}
+.conteudo1 img{
+	justify-content:center;
+	padding-bottom:20px;
+}
+.botao button{
+    width: 200px;
+    height: 50px;
+    text-align: center;
+    border-radius: 25px;
+    font-weight: bold;
+    border: 2px solid  #C6A006;
+    background: transparent;
+    color: #FF66C4;
+	text-transform: uppercase;
+    cursor: pointer;
+    position: relative;
+    overflow: hidden;
+}
+
+.botao span{
+    background:#FFC0CB;
+    height: 100%;
+    width: 0;
+    border-radius: 25px;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    z-index: -1;
+    transition: 0.5s;
+}
+.botao button:hover span{
+    width: 100%;
+}
+.botao button:hover{
+    border:none;
+}
+.botao a{ 
+    text-decoration: none;
+    color: #FF66C4;
+}
+
+.conteudo2{
+	background-color:#FFC0CB;
+	padding:5% 10%;
+	text-align:justified;
+	margin:10px 0;
+	margin:0 10%;
+	margin-bottom:20px;
+	border-radius:30px;
+}
+.conteudo2 h1, h2{
+	text-align:center;
+	padding:20px;
+}
+.conteudo2 h1{
+	font-size:30px;
+	color:#C6A006;
+}
+.conteudo2 h2{
+	font-size:25px;
+	color:#FF66C4;
+	font-weight:bolder;
+}
+.imagem1{
+	text-align:center;
+	margin:20px;
+}
+.imagem1 img{
+	width:191px;
+	height:264px;
+	border-radius:20px;
+}
+.image{
+	display:flex;
+	justify-content:center;
+}
+#livros{
+	text-align:center;
+	padding:20px 0;
+	font-weight:bolder;
+	font-size:18px;
+	line-height:20px;
+}
+#familia{
+	text-align:center;
+	padding:20px 0;
+	font-weight:bolder;
+	font-size:18px;
+	line-height:20px;
+}
+.conteudo2 p{
+	padding:15px;
+	font-size:20px;
+	line-height:25px;
+}
+.citacao p{
+	padding:0 40px;
+	font-size:17px;
+	font-weight:bolder;
+	font-style:italic;
+}
+.cit p{
+	padding:0 40px;
+	font-size:17px;
+	font-weight:bolder;
+}
